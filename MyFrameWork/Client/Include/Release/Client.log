@@ -1,0 +1,132 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  ClientCore.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(18): warning C4251: 'DX11::CDx11Scene::m_vecLayer': class 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(18): note: 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(19): warning C4251: 'DX11::CDx11Scene::m_vecScript': class 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(19): note: 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  main.cpp
+  MainScene.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\component\../Dx11Object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\component\../Dx11Object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\GameObject/Dx11GameObject.h(31): warning C4251: 'DX11::CDx11GameObject::m_ComponentList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\GameObject/Dx11GameObject.h(31): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\GameObject/Dx11GameObject.h(33): warning C4251: 'DX11::CDx11GameObject::m_FindList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\GameObject/Dx11GameObject.h(31): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(25): warning C4251: 'DX11::CDx11Transform::m_vLocalScale': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(26): warning C4251: 'DX11::CDx11Transform::m_vLocalRot': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(27): warning C4251: 'DX11::CDx11Transform::m_vLocalPos': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(28): warning C4251: 'DX11::CDx11Transform::m_vLocalAxis': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(30): warning C4251: 'DX11::CDx11Transform::m_matLocalScale': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(31): warning C4251: 'DX11::CDx11Transform::m_matLocalRotX': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(32): warning C4251: 'DX11::CDx11Transform::m_matLocalRotY': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(33): warning C4251: 'DX11::CDx11Transform::m_matLocalRotZ': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(34): warning C4251: 'DX11::CDx11Transform::m_matLocalRot': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(35): warning C4251: 'DX11::CDx11Transform::m_matLocalTranslate': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(36): warning C4251: 'DX11::CDx11Transform::m_matLocalParent': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(37): warning C4251: 'DX11::CDx11Transform::m_matLocal': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(65): warning C4251: 'DX11::CDx11Transform::m_vWorldScale': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(66): warning C4251: 'DX11::CDx11Transform::m_vWorldRot': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(67): warning C4251: 'DX11::CDx11Transform::m_vWorldPos': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(68): warning C4251: 'DX11::CDx11Transform::m_vWorldAxis': struct '_tagVector3'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\users\sangwon\documents\visual studio 2015\projects\myframework\engine\include\Dx11Types.h(261): note: '_tagVector3' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(70): warning C4251: 'DX11::CDx11Transform::m_matWorldScale': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(71): warning C4251: 'DX11::CDx11Transform::m_matWorldRotX': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(72): warning C4251: 'DX11::CDx11Transform::m_matWorldRotY': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(73): warning C4251: 'DX11::CDx11Transform::m_matWorldRotZ': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(74): warning C4251: 'DX11::CDx11Transform::m_matWorldRot': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(75): warning C4251: 'DX11::CDx11Transform::m_matWorldTranslate': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(76): warning C4251: 'DX11::CDx11Transform::m_matWorldParent': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Component/Dx11Transform.h(77): warning C4251: 'DX11::CDx11Transform::m_matWorld': struct 'DirectX::XMMATRIX'에서는 class 'DX11::CDx11Transform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\DirectXMath.h(393): note: 'DirectX::XMMATRIX' 선언을 참조하십시오.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(18): warning C4251: 'DX11::CDx11Scene::m_vecLayer': class 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(18): note: 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(19): warning C4251: 'DX11::CDx11Scene::m_vecScript': class 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Scene.h(19): note: 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Layer.h(19): warning C4251: 'DX11::CDx11Layer::m_ObjList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Layer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\Engine\Include\Scene/Dx11Layer.h(19): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+MainScene.obj : error LNK2001: "__declspec(dllimport) public: void __thiscall DX11::CDx11Component::SetTransform(class DX11::CDx11Transform *)" (__imp_?SetTransform@CDx11Component@DX11@@QAEXPAVCDx11Transform@2@@Z) 외부 기호를 확인할 수 없습니다.
+C:\Users\sangwon\Documents\Visual Studio 2015\Projects\MyFrameWork\/Client/Bin\Client.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.

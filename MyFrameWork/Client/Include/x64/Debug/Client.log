@@ -1,0 +1,83 @@
+﻿  MainScene.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\gameobject\dx11gameobject.h(25): warning C4251: 'DX11::CDx11GameObject::m_ComponentList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\gameobject\dx11gameobject.h(25): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\gameobject\dx11gameobject.h(27): warning C4251: 'DX11::CDx11GameObject::m_FindList': class 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11GameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\gameobject\dx11gameobject.h(25): note: 'std::list<DX11::CDx11Component *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Component *
+          ]
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(17): warning C4251: 'DX11::CDx11Scene::m_vecLayer': class 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(17): note: 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(18): warning C4251: 'DX11::CDx11Scene::m_vecScript': class 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(18): note: 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11layer.h(17): warning C4251: 'DX11::CDx11Layer::m_ObjList': class 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Layer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11layer.h(17): note: 'std::list<DX11::CDx11GameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11GameObject *
+          ]
+  main.cpp
+  ClientCore.cpp
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\dx11object.h(14): warning C4251: 'DX11::CDx11Object::m_strTag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\dx11object.h(18): warning C4251: 'DX11::CDx11Object::m_strTypeName': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'에서는 class 'DX11::CDx11Object'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 선언을 참조하십시오.
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(17): warning C4251: 'DX11::CDx11Scene::m_vecLayer': class 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(17): note: 'std::vector<DX11::CDx11Layer *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Layer *
+          ]
+c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(18): warning C4251: 'DX11::CDx11Scene::m_vecScript': class 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>'에서는 class 'DX11::CDx11Scene'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  c:\users\sangwon\documents\visual studio 2015\projects\revision 8\engine\include\scene\dx11scene.h(18): note: 'std::vector<DX11::CDx11Script *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=DX11::CDx11Script *
+          ]
+  코드를 생성하고 있습니다...
+Dx11Engine_Debug.lib(Dx11Engine_Debug.dll) : fatal error LNK1112: 'X86' 모듈 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
