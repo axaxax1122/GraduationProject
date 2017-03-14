@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
 	cout << "Test3" << endl;
+	cout << "이제선은 잘생겼다" << endl;
 
     return 0;
 }
