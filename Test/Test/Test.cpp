@@ -12,8 +12,7 @@ int main()
 	cout << "1234" << endl;
 	cout << "888" << endl;
 
-	cout << "3333" << endl;
-	cout << "asdf" << endl;
+	cout << "76" << endl;
 
     return 0;
 }
