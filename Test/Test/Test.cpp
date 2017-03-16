@@ -12,7 +12,7 @@ int main()
 	cout << "1234" << endl;
 	cout << "888" << endl;
 
-	cout << "asdf" << endl;
+	cout << "khk" << endl;
 
     return 0;
 }
