@@ -11,7 +11,7 @@ int main()
 	cout << "???" << endl;
 	cout << "1234" << endl;
 	cout << "888" << endl;
-	cout << "asdf" << endl;
+	cout << "11111" << endl;
 	
 
     return 0;
