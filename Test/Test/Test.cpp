@@ -11,6 +11,7 @@ int main()
 	cout << "???" << endl;
 	cout << "1234" << endl;
 	int a;
+	int b;
     return 0;
 }
 
