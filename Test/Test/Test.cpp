@@ -10,6 +10,8 @@ int main()
 	cout << "Test" << endl;
 	cout << "???" << endl;
 	cout << "1234" << endl;
+	cout << "888" << endl;
+
     return 0;
 }
 
