@@ -10,6 +10,7 @@ int main()
 	cout << "Test" << endl;
 	cout << "???" << endl;
 	cout << "1234" << endl;
+	int a;
     return 0;
 }
 
