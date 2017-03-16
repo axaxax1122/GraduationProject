@@ -9,9 +9,7 @@ int main()
 {
 	cout << "Test" << endl;
 	cout << "???" << endl;
-	cout << "999" << endl;
-	int a;
-	int b;
+	cout << "888" << endl;
     return 0;
 }
 
