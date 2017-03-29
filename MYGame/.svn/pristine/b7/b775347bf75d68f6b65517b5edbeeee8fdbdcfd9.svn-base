@@ -1,0 +1,76 @@
+#include "Dx11Material.h"
+#include "../Resources/Dx11Sampler.h"
+#include "../Resources/Dx11Texture.h"
+#include "../Resources/Dx11ResourcesManager.h"
+
+DX11_USING
+
+CDx11Material::CDx11Material()	:
+	m_pDiffuseTex(NULL),
+	m_pDiffuseSampler(NULL)
+{
+}
+
+CDx11Material::~CDx11Material()
+{
+	SAFE_RELEASE(m_pDiffuseTex);
+	SAFE_RELEASE(m_pDiffuseSampler);
+}
+
+bool CDx11Material::Init()
+{
+	return true;
+}
+
+int CDx11Material::Update(float fTime)
+{
+	return 0;
+}
+
+int CDx11Material::LateUpdate(float fTime)
+{
+	return 0;
+}
+
+void CDx11Material::Render(float fTime)
+{
+}
+
+CDx11Material * CDx11Material::Clone()
+{
+	return new CDx11Material(*this);
+}
+
+bool CDx11Material::SetDiffuseTexture(const string & strKey, 
+	TCHAR * pFileName, const string & strPathKey)
+{
+	SAFE_RELEASE(m_pDiffuseTex);
+
+	m_pDiffuseTex = DX11_GET_SINGLE(CDx11ResourcesManager)->LoadTexture(strKey, pFileName, strPathKey);
+
+	if (!m_pDiffuseTex)
+		return false;
+
+	return true;
+}
+
+bool CDx11Material::SetDiffuseSampler(const string & strKey)
+{
+	SAFE_RELEASE(m_pDiffuseSampler);
+
+	m_pDiffuseSampler = DX11_GET_SINGLE(CDx11ResourcesManager)->FindSampler(strKey);
+
+	if (!m_pDiffuseSampler)
+		return false;
+	
+	return true;
+}
+
+void CDx11Material::SetMaterial(UINT iRegisterTex, UINT iRegisterSampler)
+{
+	if (m_pDiffuseTex)
+		m_pDiffuseTex->SetTexture(iRegisterTex);
+
+	if (m_pDiffuseSampler)
+		m_pDiffuseSampler->SetSampler(iRegisterSampler);
+}

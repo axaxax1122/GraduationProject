@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CDx11Core" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAQAAAAAAIAAAAAAAAAAIAAAUAgAAAAAADACQIAAACI=</HashCode>
+      <FileName>Dx11Core.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11Object" Collapsed="true">
+    <Position X="14" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAABAAAAAAAAAACAAIAAAAQAAAAABAAIAA=</HashCode>
+      <FileName>Dx11Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11Window" Collapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAASAEAACAAAAABAABQAAAAAAAAAAQAAAACAAAAAAA=</HashCode>
+      <FileName>Core\Dx11Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11Device" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACACIBAAAAAAAQAAAAAAAAwJACACiEASAAE=</HashCode>
+      <FileName>Core\Dx11Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11FilePathManager" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAACAAAAAAA=</HashCode>
+      <FileName>Core\Dx11FilePathManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11Resource" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>Resources\Dx11Resource.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11ResourcesManager" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAEAAAA=</HashCode>
+      <FileName>Resources\Dx11ResourcesManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11Mesh" Collapsed="true">
+    <Position X="22" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAAAAAAAAgAgBAQAAAhAEAEARAAAAEAAAA=</HashCode>
+      <FileName>Resources\Dx11Mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11Shader" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIoAAECAAAAAAEAAACAAAAAAAACAAASABIIAEAAACQA=</HashCode>
+      <FileName>Rendering\Dx11Shader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDx11ShaderManager" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAACAAAACAA=</HashCode>
+      <FileName>Rendering\Dx11ShaderManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_tagResolution" Collapsed="true">
+    <Position X="10.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAGA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagVector2" Collapsed="true">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAQDACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagVector3" Collapsed="true">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAQBACAAAAAAAAACgAAAAEAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagVector4" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAQBACAAAAAAAAIAgAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_tagColorVertex" Collapsed="true">
+    <Position X="14.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAACAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="RESOLUTION" Collapsed="true">
+    <Position X="7.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PRESOLUTION" Collapsed="true">
+    <Position X="10.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VECTOR2" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PVECTOR2" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VECTOR3" Collapsed="true">
+    <Position X="10.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PVECTOR3" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="VECTOR4" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PVECTOR4" Collapsed="true">
+    <Position X="12.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec2" Collapsed="true">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PVec2" Collapsed="true">
+    <Position X="6.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec3" Collapsed="true">
+    <Position X="12.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PVec3" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vec4" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PVec4" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Matrix" Collapsed="true">
+    <Position X="24.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="COLORVERTEX" Collapsed="true">
+    <Position X="16.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PCOLORVERTEX" Collapsed="true">
+    <Position X="14.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="RESOLUTION_TYPE" Collapsed="true">
+    <Position X="24.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQCAAAABAAQAAAAA=</HashCode>
+      <FileName>Dx11Flag.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SHADER_TYPE" Collapsed="true">
+    <Position X="26.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Dx11Flag.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

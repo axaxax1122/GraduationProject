@@ -1,0 +1,24 @@
+[#주의 한박자씩 늦게 받는다(디버깅 2번해보면암)]
+
+---------------------------------------MoveWorld--------------------------------------------------------
+부모 -> m_matWorldTranslate행렬을 구해준다
+
+부모 끝나면 자식을 초기화해서 재귀로 보냄->ComputeRotationPos "부모 최종값에서 거리만큼해준다" 해주면
+
+LateUpdate 에서 m_matWorld = m_matWorldScale * m_matWorldRot * m_matWorldTranslate; 해준다.
+
+---------------------------------------------------------------------------------------------------------
+---------------------------------------RotateWorld-------------------------------------------------------
+부모 -> m_matWorldRot 를 구해준다.
+
+부모 끝나면 자식을 초기화해서 재귀로 보냄->m_matWorldRot 에서 부모만큼의 회전 값을 행렬로 받고,
+					   ComputeRotationPos에서 m_matWorldTranslate 행렬을 구한다.
+
+
+LateUpdate 에서 m_matWorld = m_matWorldScale * m_matWorldRot * m_matWorldTranslate; 해준다.
+
+---------------------------------------------------------------------------------------------------------
+
+ComputeLocalAxis : 로컬 좌표축 계산
+ComputeWorldAxis : 월드 좌표축 계산
+ComputeRotationPos :부모 존재하면 영향 ㄱ(m_matWorldTranslate )(//부모 최종값에서 거리만큼해준다(핵심) )

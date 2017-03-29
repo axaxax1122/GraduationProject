@@ -1,0 +1,76 @@
+#include "Monster.h"
+#include "Component/Dx11Collider.h"
+#include "GameObject/Dx11GameObject.h"
+
+CMonster::CMonster()
+{
+}
+
+CMonster::CMonster(const CMonster & monster)	:
+	CDx11Script(monster)
+{
+}
+
+CMonster::~CMonster()
+{
+}
+
+bool CMonster::Init()
+{
+	return true;
+}
+
+void CMonster::Input(float fTime)
+{
+}
+
+int CMonster::Update(float fTime)
+{
+	return 0;
+}
+
+int CMonster::LateUpdate(float fTime)
+{
+	return 0;
+}
+
+void CMonster::Render(float fTime)
+{
+}
+
+CMonster * CMonster::Clone()
+{
+	return new CMonster(*this);
+}
+
+void CMonster::OnCollisionEnter(CDx11Collider * pColl, float fTime)
+{
+	/*if (pColl->GetTag() == "BulletColl")
+	{
+		CDx11GameObject*	pObj = pColl->GetGameObject();
+
+		pObj->Death();
+
+		SAFE_RELEASE(pObj);
+
+		m_pGameObject->Death();
+	}*/
+}
+
+void CMonster::OnCollision(CDx11Collider * pColl, float fTime)
+{
+}
+
+void CMonster::OnCollisionExit(CDx11Collider * pColl, float fTime)
+{
+	if (pColl->GetTag() == "BulletColl")
+	{
+		CDx11GameObject*	pObj = pColl->GetGameObject();
+
+		pObj->Death();
+
+		SAFE_RELEASE(pObj);
+
+		m_pGameObject->Death();
+	}
+}
