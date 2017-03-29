@@ -1,0 +1,160 @@
+
+#pragma once
+
+// Resolution Type
+enum RESOLUTION_TYPE
+{
+	RT_MINI,
+	RT_HD,
+	RT_FHD,
+	RT_MAX
+};
+
+// Shader Type
+enum SHADER_TYPE
+{
+	ST_VERTEX,
+	ST_PIXEL,
+	ST_MAX
+};
+
+// Component Type
+enum COMPONENT_TYPE
+{
+	CT_TRANSFORM,
+	CT_RENDERER,
+	CT_SCRIPT,
+	CT_CAMERA,
+	CT_MATERIAL,
+	CT_LIGHT,
+	CT_COLLIDER,
+	CT_UI,
+	CT_MOUSE,
+	CT_BILLBOARD,
+	CT_ANIMATION2D
+};
+
+// Collider SubType
+enum COLLIDER_SUB_TYPE
+{
+	CST_SPHERE,
+	CST_HEXAHEDRON,
+	CST_RECT,
+	CST_POINT,
+	CST_BOX,
+	CST_RAY
+};
+
+// Axis
+enum AXIS
+{
+	AXIS_X,
+	AXIS_Y,
+	AXIS_Z,
+	AXIS_MAX
+};
+
+// Object Type
+enum OBJECT_TYPE
+{
+	OT_NORMAL,
+	OT_PROTOTYPE,
+	OT_CLONE
+};
+
+// Schedule Option
+enum SCHEDULE_OPTION
+{
+	SO_ONCE,
+	SO_LOOP
+};
+
+// TRANSFORM PARENT Flag
+enum TRANSFORM_PARENT_FLAG
+{
+	TPF_NONE,
+	TPF_SCALE = 0x00000001,
+	TPF_ROT	= 0x00000002,
+	TPF_POS = 0x00000004,
+	TPF_ALL = TPF_SCALE | TPF_ROT | TPF_POS
+};
+
+// Light Type
+enum LIGHT_TYPE
+{
+	LT_DIR,
+	LT_POINT,
+	LT_SPOT
+};
+
+// Render State Type
+enum RENDER_STATE_TYPE
+{
+	RST_DEPTHSTENCIL,
+	RST_RASTERIZER,
+	RST_BLEND,
+	RST_END
+};
+
+// Rotation Flag
+enum ROTATION_FLAG
+{
+	RF_XYZ,
+	RF_AXIS,
+	RF_LOOKAT,
+	RF_BILLBOARD
+};
+// Rendering Type
+enum RENDER_TYPE
+{
+	RT_NORMAL,
+	RT_ALPHA1,
+	RT_ALPHA2,
+	RT_ALPHA3,
+	RT_UI,
+	RT_END
+};
+
+
+// Button State
+enum BUTTON_STATE
+{
+	BS_NORMAL,
+	BS_MOUSEON,
+	BS_CLICK,
+	BS_END
+};
+
+// Scene Change
+enum SCENE_CHANGE
+{
+	SC_NONE,
+	SC_CHANGE
+};
+
+//Bar Dir
+enum UIBAR_DIR
+{
+	UBD_LEFT,
+	UBD_RIGHT,
+	UBD_DOWN,
+	UBD_UP,
+	UBD_END
+};
+
+// Animation2D Type
+enum ANIMATION2D_TYPE
+{
+	A2D_FRAME,
+	A2D_ATLAS_H,
+	A2D_ATLAS_ALL
+};
+
+// Animation2D Option
+enum ANIMATION2D_OPTION
+{
+	A2DO_ONCE,
+	A2DO_LOOP,
+	A2DO_TIME
+};
+
