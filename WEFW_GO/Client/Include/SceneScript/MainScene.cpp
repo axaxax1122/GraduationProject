@@ -66,7 +66,6 @@ bool CMainScene::Init()
 	//pMesh = DX11_GET_SINGLE(CDx11ResourcesManager)->LoadMesh("MapMesh", L"65.FBX");
 	//SAFE_RELEASE(pMesh);
 
-	int Test = 0;
 
 
 	// È¯°æ¸Ê ¼³Á¤
