@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Core">
+      <UniqueIdentifier>{33a95ef2-91fa-4347-a312-990557b0054f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SceneScript">
+      <UniqueIdentifier>{fc507584-0424-4f31-b37b-422054cfd542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript">
+      <UniqueIdentifier>{6e7a559e-8ea5-4e3d-80b7-5d369114f32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\01. Player">
+      <UniqueIdentifier>{45569b40-b93a-4e4c-a015-026b36b9d862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\02. Bullet">
+      <UniqueIdentifier>{ef690e78-5dff-4e15-b15e-102d964cac63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\03. Monster">
+      <UniqueIdentifier>{517cf31c-e9c1-4f5c-86f5-f200c186501c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SceneScript\01. LogoScene">
+      <UniqueIdentifier>{dcc60c33-4d90-4740-b941-ed8c03bd86bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\04. Item">
+      <UniqueIdentifier>{deb729f1-8389-4a3a-920b-3a0f8b7bb8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\05. map">
+      <UniqueIdentifier>{552ebf2a-4e44-40a2-8f20-520e079ebc7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\06. Snow">
+      <UniqueIdentifier>{e14cb32d-df31-4e68-8074-263aac8f5a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\07. MoveObject">
+      <UniqueIdentifier>{b89a2914-1313-4514-9ebe-e1dc7174571d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. NetWork">
+      <UniqueIdentifier>{0c697493-0362-4707-819d-40a79fdf3e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. NetWork\01. UserSession">
+      <UniqueIdentifier>{0fb1560a-dd44-4255-8ac5-ae626571fbd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\08. User">
+      <UniqueIdentifier>{47ebb358-b531-4e38-87e8-75a37b2b11cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. NetWork\02. InGame">
+      <UniqueIdentifier>{3189343a-89f1-417c-a473-227d5cba0f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. NetWork\03. Headers">
+      <UniqueIdentifier>{d7bb52ea-2983-437f-a418-502a042ec1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. ObjectScript\09. Minimap">
+      <UniqueIdentifier>{8a06c6d9-a295-4ea4-b353-67acf26c6f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SceneScript\02. LoadingScene">
+      <UniqueIdentifier>{3e8f16a9-d40d-4362-b945-d6e65fbc367b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. SceneScript\03. MainScene">
+      <UniqueIdentifier>{5bb944c7-c17c-4623-a662-f3ebd2b33595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dump">
+      <UniqueIdentifier>{a1c5ddec-c396-4adb-a4a9-fac8ae70fd7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientCore.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Player.cpp">
+      <Filter>03. ObjectScript\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Bullet.cpp">
+      <Filter>03. ObjectScript\02. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Monster.cpp">
+      <Filter>03. ObjectScript\03. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\GuidedMissile.cpp">
+      <Filter>03. ObjectScript\02. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Laser.cpp">
+      <Filter>03. ObjectScript\02. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScript\MainScene.cpp">
+      <Filter>02. SceneScript\03. MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScript\LogoScene.cpp">
+      <Filter>02. SceneScript\01. LogoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Item.cpp">
+      <Filter>03. ObjectScript\04. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MapInfo.cpp">
+      <Filter>03. ObjectScript\05. map</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MapObject.cpp">
+      <Filter>03. ObjectScript\05. map</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Jump.cpp">
+      <Filter>03. ObjectScript\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\PlayerCollision.cpp">
+      <Filter>03. ObjectScript\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\BlossomWhite.cpp">
+      <Filter>03. ObjectScript\06. Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Star.cpp">
+      <Filter>03. ObjectScript\06. Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\Snow.cpp">
+      <Filter>03. ObjectScript\06. Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MoveEffect_Left.cpp">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MoveEffect_Right.cpp">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MoveObject_LEFT.cpp">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MoveObject_RIGHT.cpp">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\UserSession.cpp">
+      <Filter>04. NetWork\01. UserSession</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\User.cpp">
+      <Filter>03. ObjectScript\08. User</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\InGameNetwork.cpp">
+      <Filter>04. NetWork\02. InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkManager.cpp">
+      <Filter>04. NetWork\02. InGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectScript\MinimapMove.cpp">
+      <Filter>03. ObjectScript\09. Minimap</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneScript\LoadingScene.cpp">
+      <Filter>02. SceneScript\02. LoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump.cpp">
+      <Filter>05. Dump</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientCore.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Player.h">
+      <Filter>03. ObjectScript\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Bullet.h">
+      <Filter>03. ObjectScript\02. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Monster.h">
+      <Filter>03. ObjectScript\03. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\GuidedMissile.h">
+      <Filter>03. ObjectScript\02. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Laser.h">
+      <Filter>03. ObjectScript\02. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\MainScene.h">
+      <Filter>02. SceneScript\03. MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\LogoScene.h">
+      <Filter>02. SceneScript\01. LogoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Item.h">
+      <Filter>03. ObjectScript\04. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MapInfo.h">
+      <Filter>03. ObjectScript\05. map</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MapObject.h">
+      <Filter>03. ObjectScript\05. map</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Jump.h">
+      <Filter>03. ObjectScript\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\PlayerCollision.h">
+      <Filter>03. ObjectScript\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\BlossomWhite.h">
+      <Filter>03. ObjectScript\06. Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Star.h">
+      <Filter>03. ObjectScript\06. Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\Snow.h">
+      <Filter>03. ObjectScript\06. Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MoveEffect_Left.h">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MoveEffect_Right.h">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MoveObject_LEFT.h">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MoveObject_RIGHT.h">
+      <Filter>03. ObjectScript\07. MoveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\UserSession.h">
+      <Filter>04. NetWork\01. UserSession</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\User.h">
+      <Filter>03. ObjectScript\08. User</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\InGameNetwork.h">
+      <Filter>04. NetWork\02. InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkManager.h">
+      <Filter>04. NetWork\02. InGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Include.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCircularQueue.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROClient.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROClientSession.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCriticalSection.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROCrypt.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROEventSelect.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROIocp.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROLog.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMemoryLeak.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMemoryPool.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROMultiThreadSync.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZERONetworkSession.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROPacketSession.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ZEROStream.h">
+      <Filter>04. NetWork\03. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectScript\MinimapMove.h">
+      <Filter>03. ObjectScript\09. Minimap</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneScript\LoadingScene.h">
+      <Filter>02. SceneScript\02. LoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>05. Dump</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
